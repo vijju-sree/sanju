@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Color Website Design</title>
+    <style>
+        body {
+        
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+            color: #FFFFFF; /* Text color (Gold) */
+            background-color: #003366; /* Background color (Navy) */
+        }
+        header {
+            background-color: #003366; /* Navy */
+            padding: 0px;
+            text-align: left;
+        }
+        header h1 {
+            margin: 10;
+           font-size:30px;
+            color: #FFD700; /* Gold */
+        }
+.container {
+    overflow: hidden; /* Clearfix for floating elements */
+    padding: 20px;
+}
+
+.text {
+    float: left;
+    width: 45%; /* Adjust as needed */
+    padding: 10px;
+}
+
+.map {
+    float: right;
+    width: 45%; /* Adjust as needed */
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+        p1{
+            font-size: x-large;
+            left: 10px;
+            top: 10px;
+        }
+        main {
+            padding: 20px;
+            background-color: #004080; /* Medium Navy for content area */
+        }
+        footer {
+            background-color: #002244; /* Slightly darker Navy */
+            padding: 10px;
+            text-align: center;
+            color: #FFD700; /* Gold */
+             left:200px;
+             topL100px;
+        }
+.button {
+  padding: 10px 35px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #003366;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #002244}
+
+.button:active {
+  background-color: #FFD700;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.button {width: 250px;}
+</style>
+</head>
+<body>
+    <header>
+        <h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SWARNANDHRA COLLAGE OF ENGINEERING TECHNOLOGY<br>
+                      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  POLYTECHNIC                        (DIPLOMA)AUTONOM0US<br>
+                          &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   Narsapur-534280 W.G.Dist.,(Ap)
+        </h1>
+    </header>
+      <main>
+        <a href="sanju.html">
+        <button class="button">HOME PAGE</button></a><br><br>
+        <button class="button">ADMISSION</button><br><br>
+        <button class="button">FACILITIES</button><br><br>
+        <button class="button">LOGIN</button><br><br>
+        <button class="button">PLACEMENTS</button><br><br>
+        <button class="button">SPOTS & CULTURALS</button><br><br>
+        <button class="button">CONTACT US</button><br><br>
+        
+
+        
+            <div class="container">
+                <div class="text">
+                    <h1>Text Section</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla eu vestibulum tempus, eros erat facilisis arcu, eget interdum urna lorem ut arcu.</p>
+                </div>
+                <div class="map">
+                    <h1>Map Section</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.434530981909!2d-122.0842494846812!3d37.42199977982577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb34a9d2b6b9%3A0x549a2d7f8ff2e8d!2sGoogleplex!5e0!3m2!1sen!2sus!4v1615070458751!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+    
+
